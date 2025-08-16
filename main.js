@@ -9,3 +9,7 @@ if (!renderDiv) {
     var game = new Game(renderDiv);
 // The game now initializes and starts automatically from its constructor.
 }
+// Tutorial close button
+document.getElementById("close-tutorial").addEventListener("click", () => {
+  document.getElementById("tutorial-box").style.display = "none";
+});
